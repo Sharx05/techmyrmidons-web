@@ -1,61 +1,64 @@
 {
-    "2021": [
-       {
-         "title": "Selenium",
-         "description":"Selenium is a set of different software tools, each with a different approach to support test automation. The entire suite of tools results in a rich set of testing functions specifically geared to the needs of testing of web applications of all types. These operations are highly flexible, allowing many options for locating UI elements and comparing expected test results against actual application behavior..",
-         "url": "https://engineering.aweber.com/getting-started-with-ui-automated-tests-using-selenium-python/"
-       },
- 
-       {
-         "title": "OWASP Zed",
-         "description":"The OWASP Zed Attack Proxy (ZAP), one of the free security testing software, can automatically find security vulnerabilities in web applications while they are in developing and testing phases. It is also a great tool for experienced pentesters e for manual security testing.",
-         "url": "https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project"
-       },
- 
-       {
-         "title": "Dareboost",
-         "description":"Dareboost is designed for triggering insightful audit of the website on quality and performance . DareBoost detects the root causes of slowdowns and provides tailor-made suggestions to fix them. It provides a comprehensive report of the website performance and quality, with real browser metrics and top of the range tips to drive optimization in a few seconds. Dareboost also carry out website monitoring and speed comparison for competitive advantage.",
-         "url": "https://www.dareboost.com/en/home"
-       },
- 
-       {
-         "title": "Seo Site CheckUp",
-         "description":"SeoSiteCheckUp provides a set of advanced seo analyzer tools that gives webmasters in-depth seo analysis of the website’s seo ranking in a page-by-page basis. It also tracks the website social media ranking, site usability, online reputation, meta tags, and site speed. One can get the analysis report of their website instantaneously using this online platform.",
-         "url": "https://seositecheckup.com/"
-       },
- 
-       {
-         "title": "TestRail",
-         "description":"TestRail is a holistic web based Test Management tool helps to manage,track and organize Software Testing. It aims to manage test runs and coordinate the entire testing process. It tracks and follows the status of individual tests, milestones and projects with dashboards and activity reports.",
-         "url": "http://www.gurock.com/testrail/"
-       },
- 
-       {
-         "title": "iMacros",
-         "description":"iMacros can automate whatever you do with a web browser from web automation/web scripting, to data extraction, to web testing, and much more. It is the only web automation software that works with every website.They record and handles repetitive works easily. In short they handle functional, performance, and regression testing of web applications.",
-         "url": "https://imacros.net/"
-       },
- 
-       {
-         "title": "W3 STANDARD",
-         "description":"The W3C API is a read-only Web API based on the JSON format exposing only public data.",
-         "url": "https://www.w3.org/developers/tools/"
-       },
- 
-       {
-         "title": "MOBILE FRIENDLY",
-         "description":"This is Google’s online Mobile friendly testing tool that helps to test a website is mobile friendly or not.",
-         "url": "https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect"
-       },
- 
-       {
-         "title": "Ghostlab",
-         "description":"Ghostlab is a Responsive Design Testing tool that allows to test responsive design of a website across a variety of devices and browsers. With so many mobile devices in the market, responsiveness of any UI is mandatory, especially for any new applications being built. The test is handled by few open source online tools at different screen sizes.",
-         "url": "https://www.vanamco.com/ghostlab/"
-       }
- 
- 
-    ]
- 
- }
- 
+  "2021": [
+    {
+      "title": "Selenium",
+      "description": "Selenium is an open-source umbrella project for browser automation tools and libraries supporting web application testing. It includes Selenium WebDriver for writing tests in multiple languages (Java, Python, C#, etc.), Selenium IDE for record/playback, and Selenium Grid for distributed testing. Key advantages include platform independence, CI/CD integration, and being license-free. It's particularly valuable for reducing time-to-market and enabling continuous integration efforts.:cite[1]",
+      "url": "https://www.tecnova.cl/2021/08/16/all-about-selenium-tool-for-qa-testing/?lang=en"
+    },
+    {
+      "title": "OWASP ZAP (Zed Attack Proxy)",
+      "description": "OWASP ZAP is an open-source web application security scanner that helps identify vulnerabilities from the OWASP Top 10 2021 list. It provides both automated scanning and manual testing tools for security risks like broken access control, cryptographic failures, and injection vulnerabilities. ZAP supports testing of new 2021 categories including insecure design and software integrity failures.:cite[7]",
+      "url": "https://www.zaproxy.org/docs/guides/zapping-the-top-10-2021/"
+    },
+    {
+      "title": "GhostLab by GhostQA",
+      "description": "An innovative low-code automation tool that bridges manual and automated testing. It allows creating tests without coding skills (using plain English) while supporting websites, mobile apps, APIs and desktop applications. Features include CI/CD integration, historical test analysis, team management, and integrations with JIRA/MS Teams. It's particularly useful for manual testers transitioning to automation.:cite[3]",
+      "url": "https://ghostqa.com/ghostlab/"
+    },
+    {
+      "title": "JetBrains QA Tools",
+      "description": "In 2021.3 update, JetBrains introduced enhanced Selenium support including visual page object class maintenance, Selenium 4 compatibility, and Python template support. Their Test Automation Kit added multilevel test run hierarchies, shared test steps in Markdown, and improved test data generation with customizable prefixes/suffixes.:cite[5]",
+      "url": "https://blog.jetbrains.com/qa/2021/12/qa-tools-updates-in-2021-3/"
+    },
+    {
+      "title": "OWASP Top 10 2021",
+      "description": "The updated security standard introduced three new categories (Insecure Design, Software/Data Integrity Failures, SSRF) and reorganized existing risks. It emphasizes root causes over symptoms, with Broken Access Control moving to #1 position. The standard guides QA teams in prioritizing security testing efforts and tools selection.:cite[2]:cite[6]:cite[9]",
+      "url": "https://owasp.org/Top10/"
+    },
+    {
+      "title": "CHI Software QA Services",
+      "description": "A comprehensive QA service provider offering both manual and automated testing for web/mobile/desktop applications. Their 2021 ISO-certified process includes requirements analysis, test planning, case design, execution with tools like Selenium, and continuous monitoring. Specializes in balancing automated regression/load testing with manual exploratory/usability testing.:cite[10]",
+      "url": "https://chisw.com/services/software-testing/"
+    },
+    {
+      "title": "Selenium WebDriver Courses",
+      "description": "Popular 2021 training programs for Selenium WebDriver with Python/Java, including 'Selenium Python Automation Testing from Scratch + Frameworks' (18.5 hrs) and 'Selenium WebDriver With Java - Basics to Advanced' (133 hrs). These cover test frameworks, CI integration, and real project applications, reflecting industry demand for automation skills.:cite[8]",
+      "url": "https://victorytale.com/th/learn-selenium-driver-with-python-java-c-online/"
+    },
+    {
+      "title": "TestRail",
+      "description": "Test management tool that in 2021 added enhanced dashboards for tracking OWASP Top 10 security testing progress. Integrates with Selenium for automated test case management and provides traceability matrices for security requirements.:cite[10]",
+      "url": "http://www.gurock.com/testrail/"
+    },
+    {
+      "title": "Appium",
+      "description": "Open-source test automation framework for mobile applications that gained increased integration with Selenium in 2021. Allows reuse of Selenium WebDriver tests for mobile platforms, supporting the growing need for cross-platform testing.:cite[1]",
+      "url": "https://appium.io/"
+    },
+    {
+      "title": "Sikuli",
+      "description": "Visual automation tool often integrated with Selenium in 2021 for testing complex UI elements through image recognition. Particularly useful for testing responsive designs across different screen resolutions.:cite[1]",
+      "url": "http://www.sikulix.com/"
+    },
+    {
+      "title": "ExtentReports",
+      "description": "Advanced reporting library frequently paired with Selenium in 2021 for generating interactive HTML reports with dashboards, historical trends, and OWASP vulnerability tracking.:cite[1]",
+      "url": "http://extentreports.com/"
+    },
+    {
+      "title": "Jenkins",
+      "description": "CI/CD server that saw increased integration with QA tools in 2021, particularly for executing Selenium test suites as part of deployment pipelines and monitoring OWASP security scan results.:cite[8]",
+      "url": "https://www.jenkins.io/"
+    }
+  ]
+}
